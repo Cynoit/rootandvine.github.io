@@ -1,6 +1,6 @@
 * { box-sizing: border-box;}
 
-body { background-image: url(rootvinewall.jpg);
+body { background-image: url(vinewallbg.jpg);
        background-size: 50%;
        background-color: #342F27;
        color: #ADD7B2;
@@ -9,7 +9,7 @@ body { background-image: url(rootvinewall.jpg);
 }
 #wrapper { background-color: #273429;
 }
-header { background-image: url(rootvinewall.jpg);
+header { background-image: url(vinewallbg.jpg);
          background-size: 50%;
          background-color: #342F27;
          color: #F49143;
@@ -240,7 +240,7 @@ video,embed { float:right;
   }
 }
 @media (min-width: 1024px) {
-  body {   background-image: url(rootvinewall.jpg);
+  body {   background-image: url(vinewallbg.jpg);
            background-color: #342F27;
            background-size: 50%;
            color: #ADD7B2;
