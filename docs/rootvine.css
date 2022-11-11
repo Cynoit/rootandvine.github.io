@@ -55,8 +55,8 @@ nav ul { display: flex;
 }
 
 nav a { text-decoration: none; }
-nav a:link { color: #B4D9BB; }
-nav a:visited { color: #778773; }
+nav a:link { color: #A4ED92; }
+nav a:visited { color: #B4D9BB; }
 nav a:hover { color: #E19B4C; }
 
 header a { text-decoration: none; }
