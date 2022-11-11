@@ -9,10 +9,10 @@ body { background-image: url(rootvinewall.jpg);
 }
 #wrapper { background-color: #273429;
 }
-header { background-color: #342F27;
-         background-image: url(rootvinewall.jpg);
+header { background-image: url(rootvinewall.jpg);
          background-size: 50%;
-         color: #ADD7B2;
+         background-color: #342F27;
+         color: #F49143;
          font-family: Georgia, serif;
          text-shadow: .20em .20em .20em #000000;
          padding: 1em;
@@ -61,7 +61,7 @@ nav a:hover { color: #E19B4C; }
 
 header a { text-decoration: none; }
 header a:link { color: #F49143; }
-header a:visited { color: #0F612B; }
+header a:visited { color: #F49143; }
 header a:hover { color: #C86A0E; }
 
 footer a { text-decoration: none; }
@@ -89,7 +89,7 @@ footer a:hover { color: #C86A0E; }
            background-size: 200% 100%;
            height: 300px;
 }
-#shophero { background-image: url(psunset.jpg);
+#plantdirhero { background-image: url(psunset.jpg);
              background-repeat: no-repeat;
              background-size: 200% 100%;
              height: 300px;
@@ -226,7 +226,7 @@ video,embed { float:right;
   }
   #reshero { background-size: 100% 100%;
   }
-  #shophero { background-size: 100% 100%;
+  #plantdirhero { background-size: 100% 100%;
   }
 
   form { display: grid;
@@ -240,8 +240,8 @@ video,embed { float:right;
   }
 }
 @media (min-width: 1024px) {
-  body {   background-color: #342F27;
-           background-image: url(rootvinewall.jpg);
+  body {   background-image: url(rootvinewall.jpg);
+           background-color: #342F27;
            background-size: 50%;
            color: #ADD7B2;
            font-family: Georgia, serif;
