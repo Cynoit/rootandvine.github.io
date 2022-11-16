@@ -27,7 +27,7 @@ h3 { font-family: Georgia, serif;
 }
 
 h4 { font-family: Georgia, serif;
-     color: #7CA578;
+     color: #000000;
 }
 
 h5 { color: #000000;
@@ -56,13 +56,8 @@ nav ul { display: flex;
 
 nav a { text-decoration: none; }
 nav a:link { color: #A4ED92; }
-nav a:visited { color: #B4D9BB; }
+nav a:visited { color: #A4ED92; }
 nav a:hover { color: #E19B4C; }
-
-header a { text-decoration: none; }
-header a:link { color: #F49143; }
-header a:visited { color: #F49143; }
-header a:hover { color: #C86A0E; }
 
 footer a { text-decoration: none; }
 footer a:link { color: #F49143; }
@@ -93,9 +88,7 @@ main { padding-left: 1em;
        padding-top: 0em;
        padding-bottom: 0em;
 }
-dt { color: #002171;
-     font-weight: bold;
-}
+
 .site { color: #FFFFFF;
           font-size: 1.2em;
           text-shadow: .1em .1em .1em #000000;
@@ -125,14 +118,14 @@ dt { color: #002171;
         background-color: #AEC2B1;
         color: #000000;
 }
-#resources img { float: left;
+#resources img { float: right;
            padding: .02em;
            border-style: inset;
            border-width: 3px;
            border-color: #FFFFFF;
-           margin-top: .5em;
-           margin-bottom: .5em;
-           margin-right: 4em;
+           margin-top: 3em;
+           margin-left: 3em;
+           margin-right: 1em;
 }
 
 #about { margin: .5em;
@@ -169,12 +162,12 @@ section { padding-left: .5em;
 }
 
 table { margin:auto;
-        border: solid 1px #3399CC;
+        border: solid 1px #376B29;
         width: 90%;
         border-collapse: collapse;
 }
 td, th { padding: 5px;
-         border: solid 1px #3399CC;
+         border: solid 1px #376B29;
 }
 td { text-align: center;
 }
