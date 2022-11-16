@@ -231,7 +231,7 @@ video,embed { float:right;
   body {   background-image: url(../Images/vinewallbg.jpg);
            background-color: #342F27;
            background-size: 25%;
-           color: #ADD7B2;
+           color: #000000;
            font-family: Georgia, serif;
            padding: 1em;;
   }
