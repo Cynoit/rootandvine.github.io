@@ -9,9 +9,10 @@ body { background-image: url(../Images/vinewallbg.jpg);
 }
 #wrapper { background-color: #92A595;
 }
-header { background-image: url(../Images/vinewallbg.jpg);
+header { background-image:
+                linear-gradient(to bottom, #756852 20%, #A08F73 60%, #516754 100%) ;
          background-size: 50%;
-         background-color: #342F27;
+         background-color: #86775F;
          color: #000000;
          font-family: Georgia, serif;
          text-shadow: .20em .20em .20em #000000;
@@ -147,7 +148,7 @@ main { padding-left: 1em;
 #about form { clear: left;
 }
 
-footer { background-color: #516754;
+footer { background-color: #3A4B3C;
          color: #ADD7B2;
          font-family: Georgia, serif;
          text-shadow: .20em .20em .20em #000000;
