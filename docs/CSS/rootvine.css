@@ -1,18 +1,18 @@
 * { box-sizing: border-box;}
 
 body { background-image: url(../Images/vinewallbg.jpg);
-       background-size: 50%;
-       background-color: #342F27;
-       color: #ADD7B2;
+       background-size: 25%;
+       background-color: #B8C8A2;
+       color: #000000;
        font-family: Georgia, serif;
        padding: 1em;
 }
-#wrapper { background-color: #273429;
+#wrapper { background-color: #92A595;
 }
 header { background-image: url(../Images/vinewallbg.jpg);
          background-size: 50%;
          background-color: #342F27;
-         color: #F49143;
+         color: #000000;
          font-family: Georgia, serif;
          text-shadow: .20em .20em .20em #000000;
          padding: 1em;
@@ -20,7 +20,7 @@ header { background-image: url(../Images/vinewallbg.jpg);
 h1 { text-align: center;
      font-size: 1.5em;
 }
-h2 { color: #7CA578;
+h2 { color: #000000;
      font-family: Georgia, serif;
 }
 h3 { font-family: Georgia, serif;
@@ -30,14 +30,14 @@ h4 { font-family: Georgia, serif;
      color: #7CA578;
 }
 
-h5 { color: #ACC6A9;
+h5 { color: #000000;
      font-family: Georgia, serif;
      font-size: 30px;
      margin-bottom: .5em;
 }
 nav { font-size: 1.2em;
       text-align: center;
-      background-color: #2E3D30;
+      background-color: #516754;
 }
 nav li { padding-top: .5em;
          padding-bottom: .5em;
@@ -96,7 +96,7 @@ main { padding-left: 1em;
 dt { color: #002171;
      font-weight: bold;
 }
-.resort { color: #F49143;
+.site { color: #FFFFFF;
           font-size: 1.2em;
           text-shadow: .1em .1em .1em #000000;
 }
@@ -104,7 +104,7 @@ dt { color: #002171;
         border-style: ridge;
         border-color: #FFFFFF;
         border-width: 4px;
-        background-color: #5C705F;
+        background-color: #AEC2B1;
         color: #000000;
 }
 #plantdir img { float: left;
@@ -118,62 +118,21 @@ dt { color: #002171;
 }
 #plantdir form { clear: left;
 }
-
-#plantinfo1 { margin: .5em;
+#resources { margin: .5em;
         border-style: ridge;
         border-color: #FFFFFF;
         border-width: 4px;
-        background-color: #5C705F;
+        background-color: #AEC2B1;
         color: #000000;
 }
-#plantinfo1 img { float: left;
+#resources img { float: left;
            padding: .02em;
            border-style: inset;
            border-width: 3px;
            border-color: #FFFFFF;
-           margin-top: .7em;
-           margin-bottom: 1em;
+           margin-top: .5em;
+           margin-bottom: .5em;
            margin-right: 4em;
-}
-#plantinfo1 form { clear: left;
-}
-
-#plantinfo2 { margin: .5em;
-        border-style: ridge;
-        border-color: #FFFFFF;
-        border-width: 4px;
-        background-color: #5C705F;
-        color: #000000;
-}
-#plantinfo2 img { float: right;
-           padding: .02em;
-           border-style: inset;
-           border-width: 3px;
-           border-color: #FFFFFF;
-           margin-top: .7em;
-           margin-bottom: 1em;
-           margin-left: 4em;
-}
-#plantinfo2 form { clear: right;
-}
-
-#plantinfo3 { margin: .5em;
-        border-style: ridge;
-        border-color: #FFFFFF;
-        border-width: 4px;
-        background-color: #5C705F;
-        color: #000000;
-}
-#plantinfo3 img { float: left;
-           padding: .02em;
-           border-style: inset;
-           border-width: 3px;
-           border-color: #FFFFFF;
-           margin-top: .7em;
-           margin-bottom: 1em;
-           margin-right: 4em;
-}
-#plantinfo3 form { clear: left;
 }
 
 #about { margin: .5em;
@@ -195,7 +154,7 @@ dt { color: #002171;
 #about form { clear: left;
 }
 
-footer { background-color: #2E3D30;
+footer { background-color: #516754;
          color: #ADD7B2;
          font-family: Georgia, serif;
          text-shadow: .20em .20em .20em #000000;
@@ -277,7 +236,7 @@ video,embed { float:right;
 @media (min-width: 1024px) {
   body {   background-image: url(../Images/vinewallbg.jpg);
            background-color: #342F27;
-           background-size: 50%;
+           background-size: 25%;
            color: #ADD7B2;
            font-family: Georgia, serif;
            padding: 1em;;
